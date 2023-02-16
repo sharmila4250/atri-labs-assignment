@@ -1,0 +1,90 @@
+[
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "id": "c05f3c66-9025-4725-abf9-c728a33db54f",
+    "meta": {},
+    "state": {
+      "property": {
+        "styles": {
+          "height": "60%",
+          "boxSizing": "border-box",
+          "textAlign": "center",
+          "marginLeft": "30px",
+          "marginTop": "30px"
+        }
+      },
+      "parent": {
+        "id": "",
+        "index": 0
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "childId": "c05f3c66-9025-4725-abf9-c728a33db54f",
+    "refId": "5611e79e-c045-405c-a9aa-a2594bb5032e"
+  },
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "id": "82072ac9-212c-4608-b952-4fc8e12352fb",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "custom": {
+          "alt": "No preview available",
+          "src": "/app-assets/616da2c3a17185be94e60f4b_Instagram-03-restaurante-x-template-p-500.jpeg"
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "childId": "82072ac9-212c-4608-b952-4fc8e12352fb",
+    "refId": "5611e79e-c045-405c-a9aa-a2594bb5032e"
+  },
+  {
+    "id": "2858d9dc-783f-49dc-ae7a-8e921ddbb0c1",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "sendEventData": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "refId": "5611e79e-c045-405c-a9aa-a2594bb5032e",
+    "childId": "2858d9dc-783f-49dc-ae7a-8e921ddbb0c1"
+  },
+  {
+    "id": "5611e79e-c045-405c-a9aa-a2594bb5032e",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "meta": {
+      "pkg": "@atrilabs/react-component-manifests",
+      "key": "Image",
+      "manifestSchemaId": "@atrilabs/react-component-manifest-schema"
+    },
+    "state": {
+      "parent": {
+        "id": "templateRoot",
+        "index": 0
+      },
+      "alias": "Image67"
+    }
+  }
+]
